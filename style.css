@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -55,7 +58,13 @@ body {
     color: azure;
     font-size: 18px;
     opacity: 0.5;
+}
 
+.conteudo .menu a:hover {
+
+    transition: all 2.5s ease 0s;
+    color: rgb(255, 253, 253);
+    font-size: 20px;
 }
 
 .conteudo .menu a.selecionado {
@@ -87,23 +96,61 @@ body {
     transform: translateY(-50%);
 }
 
-.descricao h1 {
-    font-size: 35px;
-}
-.descricao h3 {
-    font-size: 22px;
-}
-
 .descricao p {
     margin-top: 20px;
     font-size: 20px;
 }
-.descricao p a{
+
+.descricao p a {
     margin-top: 20px;
     font-size: 20px;
     text-decoration: none;
     color: red;
+    font-weight: bolder;
 }
-* span{
-    color: rgb(150, 146, 146);
+
+.descricao p a:hover {
+    transition: all 1.0s ease 0s;
+    color: rgb(219, 0, 0);
+    font-size: 21px;
+
+}
+
+a,
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+.sobrenome {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 44px;
+}
+
+.sobrenome {
+    color: gray;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*                  ICONS                 */
+section .icon {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.descricao .icon a img {
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+
+}
+
+.descricao .icon a img:hover {
+    transition: all 1.7s ease 0s;
+    height: 26px;
+    width: 26px;
 }
